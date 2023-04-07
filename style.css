@@ -1,0 +1,136 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color: beige;
+}
+body {
+ min-height: 100vh;
+ overflow-x: hidden;
+}
+header{
+ 
+ top: 0;
+ left: 0;
+ width: 100%;
+ font-size: larger;
+ display:table;
+ justify-content:space-between;
+ align-items: center;
+ z-index: 100;
+}
+
+.navigation a{
+text-decoration: none;
+color: black;
+padding: 6px 15px;
+
+margin: 0 10px;
+font-weight: 600;
+}
+.navigation a:hover,
+.navigation a.active
+{
+ background: rgb(5, 5, 5);
+ color: #fff;
+}
+.w3-content w3-section{
+ margin-left: 1em;
+ padding: 1em;
+ border-radius: 5px; 
+width: 100%;
+}
+/*****articles********/
+.articles-sidebar{
+ display: flex;
+}
+
+.top-articles{
+ display: flex;
+ margin:1em;
+}
+.bottom-articles{
+ display: flex;
+ margin:1em;
+ margin-top: 0.9em;
+}
+#first{
+ border: 0px solid blueviolet;
+ width: 35em;
+ height: 18em;
+ margin-left: 1em;
+}
+#first img{
+ width: 180px;
+ height: 130px;
+ border-radius: 20px;
+}
+#first p{
+ font-size: 15px;
+ font-family: poppin;
+}
+/******sidebar******/
+.sidebar{
+ border: 0px solid rgb(0, 0, 0);
+ margin:1em;
+ height: 30em;
+ width: 74em;
+ margin-left: 1em;
+}
+.sideba{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conta{
+border: beige;
+ width: 40em;
+ height: 28em;
+ margin-left: 1em;}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background-image: url("backgound#.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
